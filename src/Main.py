@@ -30,6 +30,8 @@ print(qu.connected(0, 1))
 print(qu.elements)
 
 
+
+
 bs = BinarySearch(inputs)
 key = int(input("Key to be searched?"))
 print(bs.find(key))
