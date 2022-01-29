@@ -1,14 +1,16 @@
-from src.algorithms.QuickFind import QuickFind
-from src.algorithms.QuickUnion import QuickUnion
-from src.algorithms.BinarySearch import BinarySearch
-from src.algorithms.NaiveFibonacci import NaiveFibonacci
-from src.algorithms.Fibonacci import Fibonacci
-from src.algorithms.NaiveGCD import NaiveGCD
+import time
+
+import click
+
+from algorithms.Search.BinarySearch import BinarySearch
 from src.algorithms.EuclidGCD import EuclidGCD
+from src.algorithms.Fibonacci import Fibonacci
 from src.algorithms.Greedy.ChangingMoney import ChangingMoney
 from src.algorithms.Greedy.ChangingMoneyV2 import ChangingMoneyV2
-
-import time
+from src.algorithms.NaiveFibonacci import NaiveFibonacci
+from src.algorithms.NaiveGCD import NaiveGCD
+from src.algorithms.QuickFind import QuickFind
+from src.algorithms.QuickUnion import QuickUnion
 
 # inputs = input("Inform the nodes array:")
 
