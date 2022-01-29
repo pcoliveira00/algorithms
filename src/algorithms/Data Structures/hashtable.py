@@ -49,4 +49,3 @@ it is a prime near 2000=3 but not near any power of 2. Treating each key k as an
 integer, our hash function would be
 h(k) = k mod 701
 '''
-

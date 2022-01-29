@@ -20,4 +20,3 @@ if __name__ == "__main__":
     k = 5
     countingsort(A,B,k)
     print(B)
-

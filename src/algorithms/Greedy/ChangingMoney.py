@@ -15,4 +15,3 @@ class ChangingMoney(object):
                 number_coins = number_coins + 1
 
         return number_coins
-

@@ -6,4 +6,3 @@ class NaiveFibonacci(object):
             return n
         else:
             return NaiveFibonacci.fib(n-1) + NaiveFibonacci.fib(n-2)
-

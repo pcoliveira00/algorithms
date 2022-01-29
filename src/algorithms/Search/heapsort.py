@@ -4,7 +4,7 @@ def parent(i):
     return i/2
 
 def left(i):
-    return 2*i + 1 
+    return 2*i + 1
 
 def right(i):
     return 2*i + 2
@@ -23,11 +23,11 @@ def max_heapify(A, i):
     if l <= len(A) - 1 and A[l] > A[i]:
         largest = l
     else:
-        largest = i 
-    
+        largest = i
+
     if r <= len(A) - 1 and A[r] > A[largest]:
         largest = r
-    
+
     if largest != i:
         exchange(A, i, largest)
         max_heapify(A, largest)
@@ -42,7 +42,7 @@ def min_heapify(A, i):
         lowest = l
     else:
         lowest = i
-    
+
     if r <= len(A) - 1 and A[r] < A[lowest]:
         lowest = r
 
@@ -81,7 +81,7 @@ def heap_extract_max(A):
 def heap_increase_key(A, i, key):
     if key < A[i]:
         return -1
-    
+
     A[i] = key
     while i > 0 and A[parent(i)] < A[i]:
         exchange(A, i, parent(i))

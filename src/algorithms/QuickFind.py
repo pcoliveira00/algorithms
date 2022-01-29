@@ -18,7 +18,3 @@ class QuickFind(object):
         if self.elements[p] == self.elements[q]:
             return True
         return False
-
-
-
-

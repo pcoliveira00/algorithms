@@ -18,4 +18,3 @@ class BinarySearch(object):
             else:
                 return middle
         return False
-
