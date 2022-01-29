@@ -1,5 +1,4 @@
 class EuclidGCD(object):
-
     @staticmethod
     def gcd(a, b):
         if b == 0:

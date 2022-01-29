@@ -1,6 +1,4 @@
 class ChangingMoneyV2(object):
-
-
     @staticmethod
     def change(number, coins):
         size = len(coins)

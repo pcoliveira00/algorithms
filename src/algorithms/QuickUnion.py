@@ -3,7 +3,7 @@ class QuickUnion(object):
     elements = []
 
     def __init__(self, n):
-        for i in n.split(' '):
+        for i in n.split(" "):
             self.elements.append(int(i))
 
     def root(self, n):

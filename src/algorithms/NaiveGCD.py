@@ -1,5 +1,4 @@
 class NaiveGCD(object):
-
     @staticmethod
     def gcd(a, b):
         best = 0

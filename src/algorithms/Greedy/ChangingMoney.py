@@ -1,5 +1,4 @@
 class ChangingMoney(object):
-
     @staticmethod
     def change(number, coins):
 
