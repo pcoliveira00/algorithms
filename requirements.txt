@@ -21,4 +21,4 @@ update==0.0.1
 virtualenv==16.7.5
 wcwidth==0.1.7
 wrapt==1.11.2
-zipp==0.6.0
+zipp==3.19.1
